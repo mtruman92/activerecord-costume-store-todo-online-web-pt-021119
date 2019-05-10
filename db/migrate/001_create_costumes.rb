@@ -11,7 +11,7 @@
 class CreateCostumes < ActiveRecord::Migration
   
   def change
-    create_table :costumes do |t|
+    create_table :costume do |t|
       t.string :name 
       t.string :price
       t.string :size 
