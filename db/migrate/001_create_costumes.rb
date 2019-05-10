@@ -11,3 +11,9 @@
 class CreateCostumes < ActiveRecord::Migration
   
   def change
+    create_table :costumes do |t|
+    
+    def change
+  create_table :artists do |t|
+  end
+end
